@@ -1,6 +1,7 @@
 
 const mySym = Symbol("Hello");
 
+// object leterals
 const adarsh ={
     namee :"Adarsh",
     age : 20,
