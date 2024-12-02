@@ -36,8 +36,19 @@ function loginUserMessage(userName = "ak"){
     return`${userName} just logged in`
 }
 // console.log(loginUserMessage("Adarsh"));
-console.log(loginUserMessage());
-console.log(loginUserMessage("adarsh"));//it override the vaue of ak hare ak is the default value 
+// console.log(loginUserMessage());
+// console.log(loginUserMessage("adarsh"));//it override the vaue of ak hare ak is the default value 
+
+function calculateCartPrice1(...num) {
+    return num;
+}
+console.log(calculateCartPrice1(200,400,600,1000,2000));
+
+function calculateCartPrice(a,b,c,...num1) {
+    return num1;
+}
+console.log(calculateCartPrice(200,400,600,1000,2000));
+
 
 
 
