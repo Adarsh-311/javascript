@@ -10,3 +10,8 @@ console.log(z);
 const person = { name: "Adarsh" };
 person.name = "Rahul"; // ✅ Allowed
 console.log(person.name); // Rahul
+let i = 0;
+while (i < 5) {
+  console.log("i =", i);
+  i++;
+}
